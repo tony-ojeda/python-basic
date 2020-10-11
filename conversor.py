@@ -25,7 +25,7 @@ def logica():
         try:
             while True:
                 moneda = int(input('''
-                Ingrese el indice de la moneda que quieres convertir a dolar:
+                Ingrese el indice de la moneda que quieres convertir a dolar : 
                     [1] Moneda Peruana a Dolar
                     [2] Moneda Chilena a Dolar
                     [3] Moneda Argentina a Dolar
