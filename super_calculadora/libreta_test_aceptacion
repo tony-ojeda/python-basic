@@ -1,8 +1,12 @@
 #########  Una calculadora aritmetica basica de numeros enteros  ##############
-* "2 + 2", devuelve 4
-* "5 + 4*2 / 2", devuelve 9
-* "3 / 2", produce el mensaje ERROR
-* "* *4 - 2": produce el mensaje ERROR
-* "*4 5 - 2": produce el mensaje ERROR
-* "*4 5 - 2 -": produce el mensaje ERROR
-* "*45-2-": produce el mensaje ERROR
+* Aceptación - "2 + 2", devuelve 4 !Hecho¡
+    - Sumar 2 al número 2, devuelve 4 !Hecho¡
+    - La propieda conmutativa se cumple (a + b) = (b + a)  !Hecho¡
+    - La cadena "2 + 2", tiene dos números y un operador: '2'
+,'2' y '+' 
+* Aceptación - "5 + 4*2 / 2", devuelve 9
+* Aceptación - "3 / 2", produce el mensaje ERROR
+* Aceptación - "* *4 - 2": produce el mensaje ERROR
+* Aceptación - "*4 5 - 2": produce el mensaje ERROR
+* Aceptación - "*4 5 - 2 -": produce el mensaje ERROR
+* Aceptación - "*45-2-": produce el mensaje ERROR
