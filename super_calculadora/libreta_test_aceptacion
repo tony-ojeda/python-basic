@@ -1,0 +1,8 @@
+#########  Una calculadora aritmetica basica de numeros enteros  ##############
+* "2 + 2", devuelve 4
+* "5 + 4*2 / 2", devuelve 9
+* "3 / 2", produce el mensaje ERROR
+* "* *4 - 2": produce el mensaje ERROR
+* "*4 5 - 2": produce el mensaje ERROR
+* "*4 5 - 2 -": produce el mensaje ERROR
+* "*45-2-": produce el mensaje ERROR

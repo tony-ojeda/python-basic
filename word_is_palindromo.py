@@ -14,7 +14,5 @@ def run():
         print('Es palíndromo')
     else:
         print('No es palíndromo')
-
-
 if __name__ == '__main__':
     run()
