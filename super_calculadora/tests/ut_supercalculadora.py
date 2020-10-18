@@ -1,6 +1,6 @@
 import unittest
-from ..app import ut_calculadora
-import ut_expr_aritmetica
+from ut_calculadora import TestsCalculadora
+from ut_expr_aritmetica import TestsExpAritmetica
 
 if __name__ == "__main__":
     #unittest.main()
