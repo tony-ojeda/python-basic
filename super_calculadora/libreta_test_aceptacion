@@ -5,9 +5,9 @@
     - La cadena "2 + 2", tiene dos números y un operador: '2'
 ,'2' y '+' 
 * Aceptación - "5 - 3", devuelve 2
-    - Restar 5 al número 3, devuelve 2
-    - Restar 2 al número 2, devuelve -1
-    - La propidad conmutativa no se cumple
+    - Restar 5 al número 3, devuelve 2 !Hecho¡
+    - Restar 2 al número 2, devuelve -1 !Hecho¡
+    - La propidad conmutativa no se cumple !Hecho¡
 * Aceptación - "5 + 4*2 / 2", devuelve 9
 * Aceptación - "3 / 2", produce el mensaje ERROR
 * Aceptación - "* *4 - 2": produce el mensaje ERROR
