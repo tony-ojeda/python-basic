@@ -1,10 +1,10 @@
 import unittest
-from .app.calculadora import Calculadora
+import calculadora
 
 class TestsCalculadora(unittest.TestCase):
     
     def setUp(self):
-        self.calc = calculadora.Supercalculadora()
+        self.calc = calculadora.Calculadora()
 
     def tearDown(self):
         pass
@@ -28,3 +28,10 @@ class TestsCalculadora(unittest.TestCase):
     def test_restar_no_propiedad_conmutativa(self):
         self.assertNotEqual(self.calc.restar(5,3),
         self.calc.restar(3,5))
+
+    def test_sumar_numeros_negativos(self):
+        self.failUnlessEqual(0, self.calc.sumar(2, -2))
+    
+    def test_restar_numeros_negativos(self):
+        self.failUnlessEqual(-7, self.calc.restar(-5, 2))
+        self.failUnlessEqual(-5, self.calc.restar(-7, -2))
