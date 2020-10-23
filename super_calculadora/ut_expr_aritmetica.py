@@ -2,11 +2,14 @@ import unittest
 import expr_aritmetica
 
 class TestsExpAritmetica(unittest.TestCase):
+    def setUp(self):
+        self.expresion = expr_aritmetica.ExprAritmetica()
+    
+    def tearDown(self):
+        pass
     
     def test_extraer_operandos_y_operadores_en_2_mas_2(self):
-        expresion = expr_aritmetica.ExprAritmetica()
-        self.failUnless({'Operandos':[2,2],'Operadores':['+']},expresion.parse("2 + 2"))
+        self.failUnless({'operandos':[2,2],'operadores':['+']},self.expresion.parse("2 + 2"))
     
     def test_extraer_operandos_y_operadores_en_10_entre_menos_5(self):
-        expresion = expr_aritmetica.ExprAritmetica()
-        self.assertEqual({'Operandos':[10, -5], 'Operadores':['/'], expresion.parse("10 / -5")})
+        self.assertEqual({'operandos':[10, -5], 'operadores':['/']}, self.expresion.parse("10 / -5"))
