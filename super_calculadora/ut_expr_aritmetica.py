@@ -13,3 +13,7 @@ class TestsExpAritmetica(unittest.TestCase):
     
     def test_extraer_operandos_y_operadores_en_10_entre_menos_5(self):
         self.assertEqual({'operandos':[10, -5], 'operadores':['/']}, self.expresion.parse("10 / -5"))
+
+    def test_extraer_operandos_y_operadores_expr_sin_parentesis(self):
+        self.failUnlessEqual({'operandos':[5,4,2,2], 'operadores':['+','*','/']},
+        self.expresion.parse("5 + 4 * 2 / 2"))

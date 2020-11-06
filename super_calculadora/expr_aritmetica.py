@@ -1,4 +1,3 @@
-
 class ExprAritmetica:
     def __es_numero__(self, cadena):
         try:
@@ -13,7 +12,7 @@ class ExprAritmetica:
         tokens = exp.split()
         for token in tokens:
             if self.__es_numero__(token):
-                operandos.append(int(int(token)))
+                operandos.append(int(token))
             else:
                 operadores.append(token)
         return {'operandos':operandos,'operadores':operadores}
