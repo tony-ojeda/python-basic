@@ -16,6 +16,8 @@
     - "5 + 4 * 2 / 2", devuelve 9
     - "5 + 4 - 3", devuelve 6  !Hecho
     - "5 + 4 / 2 - 4", devuelve 3  !Hecho
+    - "4 / 2 - 3 + 1 + 6 / 3 - 1", devuelve 1  !Hecho
+    - "4 / -2 + 3 + -1 + -6 / -3 - 10", devuelve -8  !Hecho
     - Operandos son '5', '4', '2' y '2' y operadores '+', '*', '/'  !Hecho¡
 * Aceptación - "3 / 2", produce el mensaje ERROR
     - Dividir 2 entre 2 da 1   !Hecho¡
