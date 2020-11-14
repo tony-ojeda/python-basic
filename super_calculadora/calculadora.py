@@ -13,4 +13,4 @@ class Calculadora:
         if a % b != 0:
             raise ValueError
         else:
-            return a / b
+            return int(a / b)
