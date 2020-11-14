@@ -23,4 +23,6 @@ class TestsSupercalculadora(unittest.TestCase):
     def test_expresion_compleja_sin_parentesis_con_precedencia(self):
         self.failUnlessEqual("3", self.sc.calcular("5 + 4 / 2 - 4"))
         self.failUnlessEqual("-1", self.sc.calcular("4 / 2 - 3"))
+        self.failUnlessEqual("1", self.sc.calcular("4 / 2 - 3 + 1 + 6 / 3 - 1"))
+        self.failUnlessEqual("-8", self.sc.calcular("4 / -2 + 3 + -1 + -6 / -3 - 10"))
 
