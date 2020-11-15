@@ -14,6 +14,7 @@
     - Restar -2 al número -7, devuelve -5   !Hecho¡
 * Aceptación - "5 + 4 * 2 / 2", devuelve 9
     - "5 + 4 * 2 / 2", devuelve 9
+    - "4 - -3 * 2 / 3 * 5", devuelve 11  !Hecho
     - "5 + 4 - 3", devuelve 6  !Hecho
     - "5 + 4 / 2 - 4", devuelve 3  !Hecho
     - "4 / 2 - 3 + 1 + 6 / 3 - 1", devuelve 1  !Hecho
